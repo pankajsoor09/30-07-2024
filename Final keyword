@@ -1,0 +1,38 @@
+**final keyword ---- constant 
+1. data members
+2.methods
+3.class
+
+need to initialize final at time of declaration
+
+final int NUMBER = 100;// data member must be in uppercase
+
+final method cannot be overridden  
+
+final class cannot be inherited  by another class , but final class can inherite another class
+final class can be a child class to a parent  class but.canot be a parent class to child
+
+final class FinalClass {
+parent
+}
+class SubClass(child) extends FinalClass(parent) { // This will cause a compilation error
+} 
+
+A method declared as final cannot be overridden in a subclass.
+
+
+
+**abstract 
+1.method
+
+2.class
+
+when a method in a class has abstract then need to make that class abstract...but if class is abstract then no need to dec abstract in method
+ 
+ referens can be created 
+ 
+  instance of class / obj cannot be created in abstract.....to use abstract class inheritance  is must  
+  
+   *Abstract methods must be implemented by any non-abstract subclass.
+  
+  concrete -- which is not abstract
